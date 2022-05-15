@@ -1,0 +1,134 @@
+ocak1=[]
+subat1=[]
+mart1=[]
+nisan1=[]
+mayıs1=[]
+haziran1=[]
+temmuz1=[]
+agustos1=[]
+eylul1=[]
+ekim1=[]
+kasım1=[]
+aralık1=[]
+maas=int(input(print('Aylık maaşınızı giriniz: ')))
+a=int(input(print('Ocak ayı içinkaç gider gireceksiniz:')))
+while a>=1:
+  ocakg=input(print('Gider ismi:'))
+  ocakm=input(print('Gider miktarı: '))
+  ocak1.append(ocakg)
+  ocak1.append(ocakm)
+  a=a-1
+b=int(input(print('Şubat ayı için kaç gider gireceksiniz:')))
+while b>=1:
+  subatg=input(print('Gider ismi:'))
+  subatm=input(print('Gider miktarı: '))
+  subat1.append(subatg)
+  subat1.append(subatm)
+  b=b-1
+c=int(input(print('Mart ayı için kaç gider gireceksiniz:')))
+while c>=1:
+  martg=input(print('Gider ismi:'))
+  martm=input(print('Gider miktarı: '))
+  mart1.append(martg)
+  mart1.append(martm)
+  c=c-1
+d=int(input(print('Nisan ayı için kaç gider gireceksiniz:')))
+while d>=1:
+  nisang=input(print('Gider ismi:'))
+  nisanm=input(print('Gider miktarı: '))
+  nisan1.append(nisang)
+  nisan1.append(nisanm)
+  d=d-1
+e=int(input(print('Mayıs ayı içinkaç gider gireceksiniz:')))
+while e>=1:
+  mayısg=input(print('Gider ismi:'))
+  mayısm=input(print('Gider miktarı: '))
+  mayıs1.append(mayısg)
+  mayıs1.append(mayısm)
+  e=e-1
+f=int(input(print('Haziran ayı içinkaç gider gireceksiniz:')))
+while f>=1:
+  hazirang=input(print('Gider ismi:'))
+  haziranm=input(print('Gider miktarı: '))
+  haziran1.append(hazirang)
+  haziran1.append(haziranm)
+  f=f-1
+g=int(input(print('Temmuz ayı içinkaç gider gireceksiniz:')))
+while g>=1:
+  temmuzg=input(print('Gider ismi:'))
+  temmuzm=input(print('Gider miktarı: '))
+  temmuz1.append(temmuzg)
+  temmuz1.append(temmuzm)
+  g=g-1
+h=int(input(print('Ağustos ayı içinkaç gider gireceksiniz:')))
+while h>=1:
+  agustosg=input(print('Gider ismi:'))
+  agustosm=input(print('Gider miktarı: '))
+  agustos1.append(agustosm)
+  agustos1.append(agustosm)
+  h=h-1
+i=int(input(print('Eylül ayı içinkaç gider gireceksiniz:')))
+while i>=1:
+  eylulg=input(print('Gider ismi:'))
+  eylulm=input(print('Gider miktarı: '))
+  eylul1.append(eylulg)
+  eylul1.append(eylulm)
+  i=i-1
+j=int(input(print('Ekim ayı içinkaç gider gireceksiniz:')))
+while j>=1:
+  ekimg=input(print('Gider ismi:'))
+  ekimm=input(print('Gider miktarı: '))
+  ekim1.append(ekimg)
+  ekim1.append(ekimm)
+  j=j-1
+k=int(input(print('Kasım ayı içinkaç gider gireceksiniz:')))
+while k>=1:
+  kasımg=input(print('Gider ismi:'))
+  kasımm=input(print('Gider miktarı: '))
+  kasım1.append(kasımg)
+  kasım1.append(kasımm)
+  k=k-1
+l=int(input(print('Aralık ayı içinkaç gider gireceksiniz:')))
+while l>=1:
+  aralıkg=input(print('Gider ismi:'))
+  aralıkm=input(print('Gider miktarı: '))
+  aralık1.append(aralıkg)
+  aralık1.append(aralıkm)
+  l=l-1
+r=input(print('Görmek istediğiniz ayı yazın\nocak-subat-mart-nisan-mayıs-haziran-temmuz-agustos-eylul-ekim-kasım\nGeliriniz altta yazacaktır:'))
+if r== 'ocak':
+      print(ocak1)
+      print(maas)
+elif r== 'subat':
+      print(subat1)
+      print(maas)
+elif r== 'mart':
+      print(mart1)
+      print(maas)
+elif r== 'nisan':
+      print(nisan1)
+      print(maas)
+elif r== 'mayıs':
+      print(mayıs1)
+      print(maas)
+elif r== 'haziran':
+      print(haziran1)
+      print(maas)
+elif r== 'temmuz':
+      print(temmuz1)
+      print(maas)
+elif r== 'agustos':
+      print(agustos1)
+      print(maas)
+elif r== 'eylul':
+      print(eylul1)
+      print(maas)
+elif r== 'ekim':
+      print(ekim1)
+      print(maas)
+elif r== 'kasım':
+      print(kasım1)
+      print(maas)
+elif r== 'aralık':
+      print(aralık1)
+      print(maas)
