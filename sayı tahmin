@@ -1,0 +1,28 @@
+import random
+
+toplam=0
+hak=3
+sayı=random.randint(1,100)
+
+for i in range(3):
+    a = int(input("Sayı gir: "))
+    b = int(input("Sayı gir: "))
+    c = int(input("Sayı gir: "))
+    toplam=a+b+c
+    if toplam<sayı:
+        hak-=1
+        if hak<1:
+            print(f"Başaramadınız! Cevap {sayı}")
+            break
+        else:
+            print(f"Girdiğiniz sayıların toplamı,istenilen sayıdan küçük.{hak} adet hakkınız kaldı.")
+    elif toplam>sayı:
+        hak -= 1
+        if hak<1:
+            print(f"Başaramadınız! Cevap {sayı}")
+            break
+        else:
+            print(f"Girdiğiniz sayıların toplamı,istenilen sayıdan büyük.{hak} adet hakkınız kaldı.")
+    else:
+        print("Başardınız! Sayıların toplamı istenilen sayıya eşit!")
+        break
