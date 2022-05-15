@@ -1,0 +1,80 @@
+avukat=0
+bakkal=0
+doktor=0
+muhendis=0
+oyuncu=0
+
+print('Aşağıda size soracağım sorular ile hangi mesleğe daha yatkın olduğunuzu size göstermeye çalışacağım.\nAvukatlık-Doktorluk-Mühendislik-Bakkallık-Oyunculuk\nBu mesleklerden hangisine daha yatkın olduğunuzu göstereceğim.\nTest sonu puanı yüksek olan mesleklere daha yatkınsınız.')
+
+s1=input(print('s1:Bilgisayarla ilgileniyor musunuz? A)evet B)hayır'))
+if s1 == 'A' or s1 == 'a':
+      muhendis+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+
+s2=input(print('s2:Sebzelerle ilgileniyor musunuz? A)evet B)hayır'))
+if s2 == 'A' or s2 == 'a':
+      bakkal+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+
+s3=input(print('s3:Yasalarla ilgileniyor musunuz? A)evet B)hayır'))
+if s3 == 'A' or s3 == 'a':
+      avukat+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+
+s4=input(print('s4:Sağlıkla ilgileniyor musunuz? A)evet B)hayır'))
+if s4 == 'A' or s4 == 'a':
+      doktor+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+
+s5=input(print('s5:Dizi ve filmlerle ilgileniyor musunuz? A)evet B)hayır'))
+if s5 == 'A' or s5 == 'a':
+      oyuncu+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+
+s6=input(print('s6:	Bir tiyatro oyununda rol almak ister misiniz? A)evet B)hayır'))
+if s6 == 'A' or s6 == 'a':
+      oyuncu+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+
+s7=input(print('s7:Hasta insanlara yardım etmek ister misiniz? A)evet B)hayır)'))
+if s7 == 'A' or s7 == 'a':
+      doktor+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+s8=input(print('s8:Elektronik eşyaların nasıl çalıştığını öğrenmek ister misiniz? A)evet B)hayır'))
+if s8 == 'A' or s8 == 'a':
+      muhendis+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+s9=input(print('s9:İnsanlara bir şeyler satmak ister misiniz? A)evet B)hayır'))
+if s9=='A' or s9 == 'a':
+      bakkal+=10
+      print('sıradaki soru')
+else:
+      print('sıradaki soru')
+s10=input(print('Mahkemede insanlara yardım etmek ister misiniz? A)evet B)hayır'))
+if s10=='A' or s10 == 'a':
+      avukat+=10
+      print('tebrikler test bitti')
+else:
+      print('tebrikler test bitti')
+print('Avukat:',avukat)
+print('Doktor:',doktor)
+print('Bakkal:',bakkal)
+print('Mühendis:',muhendis)
+print('Oyuncu:',oyuncu)
+print('Artık hangi mesleğe daha yatkın olduğunu öğrendin')
