@@ -1,0 +1,11 @@
+import random
+Sayılar="QWERTYUIOPĞÜASDFGHJKLŞİZXCVBNMÖÇ1234567890qwertyuıopğüasdfghjklşizxcvbnmöç"
+Liste=[]
+Seçim=int(input("kaç tane şifre oluşturmak istersiniz"))
+for i in range(Seçim):
+      Şifre=""
+      for i in range(16):
+            Şifre+=Sayılar[random.randint(0,len(Sayılar)-1)]
+      Liste.append(Şifre)
+print(Liste)
+
